@@ -26,7 +26,7 @@ function M.new(dir,codec)
  function N.advance(id,dt,active,boost,now,danceSeconds)
   local gain=boost and 2 or 1
   N.satiety=clamp(N.satiety-dt/120+(id=='eat' and active*gain or 0))
-  N.mood=clamp(N.mood-dt/200-(id=='dance'and math.max(0,math.min(dt,danceSeconds or 0))*.3 or 0)+((id=='game' or id=='pet' or id=='laser')and active*.8*gain or 0))
+  N.mood=clamp(N.mood-dt/200-((id=='dance'or id=='witch_magic_show')and math.max(0,math.min(dt,danceSeconds or 0))*.6 or 0)+((id=='game' or id=='pet' or id=='laser')and active*.8*gain or 0))
   N.energy=clamp(N.energy-(dt-(id=='sleep' and active or 0))/150+(id=='sleep' and active*.8*gain or 0))
   if id=='read' then N.xp=N.xp+active end
   while N.xp>=N.required()do N.xp=N.xp-N.required();N.level=N.level+1 end

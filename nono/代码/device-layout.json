@@ -1,5 +1,5 @@
 {
-  "version": "1.1.6",
+  "version": "1.1.9",
   "width": 320,
   "height": 240,
   "safe_top": 32,
@@ -28,7 +28,8 @@
       "title_file": "assets/ui/title-idle.png",
       "status_file": "assets/ui/status-idle.png",
       "duration_ms": 5030,
-      "frame_count": 126
+      "frame_count": 126,
+      "profession": "science"
     },
     {
       "id": "eat",
@@ -51,7 +52,8 @@
       "loop_frame_count": 126,
       "outro_duration_ms": 20280,
       "outro_frame_count": 507,
-      "loop_seconds": 30
+      "loop_seconds": 30,
+      "profession": "science"
     },
     {
       "id": "sleep",
@@ -74,7 +76,8 @@
       "loop_duration_ms": 5030,
       "loop_frame_count": 126,
       "outro_duration_ms": 10530,
-      "outro_frame_count": 264
+      "outro_frame_count": 264,
+      "profession": "science"
     },
     {
       "id": "read",
@@ -97,7 +100,8 @@
       "loop_duration_ms": 5030,
       "loop_frame_count": 126,
       "outro_duration_ms": 5530,
-      "outro_frame_count": 139
+      "outro_frame_count": 139,
+      "profession": "science"
     },
     {
       "id": "game",
@@ -120,7 +124,8 @@
       "loop_duration_ms": 5030,
       "loop_frame_count": 126,
       "outro_duration_ms": 5530,
-      "outro_frame_count": 139
+      "outro_frame_count": 139,
+      "profession": "science"
     },
     {
       "id": "pet",
@@ -143,7 +148,8 @@
       "loop_duration_ms": 2030,
       "loop_frame_count": 51,
       "outro_duration_ms": 15530,
-      "outro_frame_count": 389
+      "outro_frame_count": 389,
+      "profession": "science"
     },
     {
       "id": "laser",
@@ -166,7 +172,8 @@
       "loop_duration_ms": 4030,
       "loop_frame_count": 101,
       "outro_duration_ms": 3530,
-      "outro_frame_count": 89
+      "outro_frame_count": 89,
+      "profession": "science"
     },
     {
       "id": "dance",
@@ -183,7 +190,43 @@
       "duration_ms": 30920,
       "frame_count": 741,
       "return_activity": "idle",
-      "manual_only": false
+      "manual_only": false,
+      "profession": "science"
+    },
+    {
+      "id": "witch_magic_show",
+      "title": "三重变形魔法秀",
+      "file": "assets/nono-witch_magic_frog.gif",
+      "kind": "gif",
+      "x": 60,
+      "y": 33,
+      "width": 200,
+      "height": 150,
+      "zoom": 256,
+      "title_file": "assets/ui/title-witch_magic_frog.png",
+      "status_file": "assets/ui/status-witch_magic_frog.png",
+      "duration_ms": 69500,
+      "frame_count": 2217,
+      "profession": "witch",
+      "return_activity": "witch_idle",
+      "manual_only": false,
+      "shuffle_parts": [
+        {
+          "id": "witch_magic_frog",
+          "file": "assets/nono-witch_magic_frog.gif",
+          "duration_ms": 22500
+        },
+        {
+          "id": "witch_magic_slime",
+          "file": "assets/nono-witch_magic_slime.gif",
+          "duration_ms": 25000
+        },
+        {
+          "id": "witch_magic_dragon",
+          "file": "assets/nono-witch_magic_dragon.gif",
+          "duration_ms": 22000
+        }
+      ]
     }
   ],
   "auto_min_cycles": 5,

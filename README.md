@@ -1,39 +1,31 @@
-# youxia173-holocubic-apps
+# pet-nuonuo · 桌宠诺诺
 
-游侠173 的 HoloCubic 社区应用。每个应用一个目录，之后的新应用也放在这个仓库里。
+HoloCubic 桌宠诺诺的独立维护仓库，原作者为 **游侠173（youxia173）**。
+
+来源：[youxia173/youxia173-holocubic-apps](https://github.com/youxia173/youxia173-holocubic-apps/tree/main/nono)，基线提交 `9b87cac7cededa6e5d881f8ae897e57dae102633`。保留上游 Git 历史，当前目录仅维护 `nono`，不包含其他应用。由于本账号已有上游 fork，本仓库为独立派生仓库，不是 GitHub fork 网络中的第二个 fork。已有 fork 保持不变。
 
 ## 桌宠诺诺
 
-当前版本 1.1.6。科技形象可以变身女巫师；吃饭、睡觉、看书、游戏、撸猫和激光逗猫都有准备、循环和收尾。待机时会跳一支约 31 秒的完整舞蹈，心情高于 90 时自动生活会在待机结束后跳舞。网页可设置活动时长、职业外观、公历生日、左右天气或休息倒计时，以及上下班时间。
+当前版本 **1.1.9**，从用户提供的完整安装包原样导入。科技形象可以变身女巫师；吃饭、睡觉、看书、游戏、撸猫和激光逗猫都有准备、循环和收尾。高心情自动轮换跳舞和魔法秀，实际表演每秒额外扣 0.6 心情；饭盒、拉面和汉堡可乐依次轮换。魔法秀随机排列青蛙、史莱姆和飞龙，各播放一次。网页可设置活动时长、职业外观、公历生日、左右天气或休息倒计时，以及上下班时间。
 
 | 目录 | 内容 |
 | --- | --- |
 | `nono/代码/` | 应用根目录，对应设备 `/sd/apps/nono/` |
-| `nono/安装包/` | 1.1.6 完整安装包，约 55.9 MB |
+| `nono/安装包/` | 1.1.9 完整安装包，81,819,133 字节 |
 | `nono/说明/` | 动作、养成、生日和网页设置说明 |
 
-解压安装包，把里面的 `nono` 文件夹放到 SD 卡的 `apps` 目录。覆盖更新时保留 `user-settings.json`、`needs.json`、`weather-history.json` 和 `holiday-cache.json`。
+解压安装包，把里面的 `nono` 文件夹放到 SD 卡的 `apps` 目录，即 `/sd/apps/nono/`，不要把仓库名 `pet-nuonuo` 用作设备目录。退出旧版本后覆盖更新，保留 `user-settings.json`、`needs.json`、`needs.bak.json`、`weather-history.json` 和 `holiday-cache.json` 及其备份。刷新应用列表后启动「桌宠诺诺」，网页设置地址为 `http://设备IP/nono/`。
+
+机身左右键选择活动，下键恢复自动，上键测试顶部遮挡。详细说明见 `nono/说明/安装说明_v1.1.9.txt`。
 
 Windows 版源码、便携包和 exe 只留在本地，不放进这个仓库。
 
-## 黄金矿工
+## 安装包校验与来源
 
-| 目录 | 内容 |
-| --- | --- |
-| `gold-miner/代码/` | 应用根目录，对应设备 `/sd/apps/gold_miner/` |
-| `gold-miner/安装包/` | 完整安装包，首次安装和覆盖更新都用这一份 |
-| `gold-miner/说明/` | 安装步骤和按键 |
+文件：`nono/安装包/桌宠诺诺_v1.1.9_完整安装包_网页设置版.zip`
 
-解压安装包，把里面的 `gold_miner` 文件夹放到 SD 卡的 `apps` 目录，不要多套一层。
+SHA-256：`de65594f8cca4b1e7941d7f924d831bc32cda63778e9ea584e101e2e4636fcc7`
 
-## 网页手柄
+`nono/代码/` 与安装包内的 `nono/` 逐文件一致。原作者署名、素材和字体许可说明保持原样。
 
-在官方 HID Pad 上增加网页接管，当前版本 1.1.4。
-
-| 目录 | 内容 |
-| --- | --- |
-| `hidpad/代码/` | 应用根目录，对应设备 `/sd/apps/hidpad/` |
-| `hidpad/安装包/` | 更新包。设备上已有官方手柄服务时使用 |
-| `hidpad/说明/` | 按键、改键和接管说明 |
-
-这是更新包，不包含 `modules/hidpad.so` 和 `config.json`，安装时不要覆盖这两份设备文件。打开 `http://设备IP/hidpad/remote/` 即可使用。
+上游没有提供仓库整体许可证；本派生仓库不擅自新增授权。字体许可见 `nono/代码/font/OFL-NotoSansCJK.txt`。

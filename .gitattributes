@@ -1,0 +1,3 @@
+# Preserve imported device package bytes, including original line endings.
+nono/代码/** -text
+*.zip binary
