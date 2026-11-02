@@ -1,10 +1,30 @@
-# pet-nuonuo · 桌宠诺诺
+# pet-nuonuo · 桌宠诺诺与黄金矿工
 
-HoloCubic 桌宠诺诺的独立维护仓库，原作者为 **游侠173（youxia173）**。
+HoloCubic 桌宠诺诺与黄金矿工的维护仓库，原作者为 **游侠173（youxia173）**。
 
 本仓库是 [youxia173/youxia173-holocubic-apps](https://github.com/youxia173/youxia173-holocubic-apps) 的公开 GitHub fork，由 `clocteck/youxia173-holocubic-apps` 改名为 `clocteck/pet-nuonuo`，保留 GitHub 的 fork 来源关系。
 
-诺诺来源：[上游 nono 目录](https://github.com/youxia173/youxia173-holocubic-apps/tree/main/nono)，基线提交 `9b87cac7cededa6e5d881f8ae897e57dae102633`。保留上游及原 fork 的提交历史；当前版本只维护 `nono`，其他应用仅可在历史提交中查阅。
+诺诺来源：[上游 nono 目录](https://github.com/youxia173/youxia173-holocubic-apps/tree/main/nono)，基线提交 `9b87cac7cededa6e5d881f8ae897e57dae102633`。黄金矿工恢复自原 fork 提交 `a8bbfd1efcd66ac2ba0c9808c58212aac205e67e`，保留上游及原 fork 的提交历史。本仓库包含 `nono` 和 `gold-miner`，不包含 HID Pad 服务。
+
+## 黄金矿工与服务器导入
+
+当前版本 **1.2.12**，保留原 fork 的运行逻辑、简繁中文/英文/日文语言系统、目录结构和完整安装包。`info.html` 的图标已内嵌为 PNG Base64，并保留原作者 GitHub 链接。
+
+服务器导入时选择仓库 `clocteck/pet-nuonuo`、分支 `main`，将黄金矿工作为独立应用条目：
+
+| 字段 | 值 |
+| --- | --- |
+| 设备应用 ID | `gold_miner` |
+| 运行包目录 | `gold-miner/package/` |
+| 应用元数据 | `gold-miner/package/app.info` |
+| 介绍页 | `gold-miner/package/info.html` |
+| 图标 | `gold-miner/package/main.png`（介绍页内已内嵌） |
+| 完整安装包 | `gold-miner/src/dist/黄金矿工_1.2.12_完整安装包.zip` |
+| 类型 / 分类 / 目录范围 | `app` / `game` / `community` |
+
+直接安装可下载 [1.2.12 完整安装包](gold-miner/src/dist/黄金矿工_1.2.12_完整安装包.zip)。ZIP 顶层为 `gold_miner/`，安装目标为 `/sd/apps/gold_miner/`；不要上传 `src/` 或额外嵌套 `package/`。`src/dist/` 内其他版本仅作历史归档，上架选用 1.2.12。
+
+详见 [安装说明](gold-miner/src/docs/安装说明.md) 和 [开发与测试说明](gold-miner/src/README.md)。以上为仓库导入信息，不表示已在服务器发布；服务器原先使用旧仓库地址的条目应更新到本仓库。
 
 ## 桌宠诺诺
 

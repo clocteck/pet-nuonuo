@@ -1,6 +1,6 @@
 # 应用开发与交付格式
 
-本仓库 `pet-nuonuo` 仅维护从游侠173社区应用派生的桌宠诺诺。保留原作者署名及上游来源，沿用 `nono/代码/`、`nono/安装包/`、`nono/说明/` 的格式。设备 app ID 保持 `nono`，目标目录为 `/sd/apps/nono/`。
+本仓库 `pet-nuonuo` 维护从游侠173社区应用派生的桌宠诺诺和黄金矿工。保留原作者署名及上游来源。诺诺沿用 `nono/代码/`、`nono/安装包/`、`nono/说明/` 的格式，设备 app ID 为 `nono`。按用户要求，黄金矿工恢复原 fork 的 `gold-miner/package/` + `gold-miner/src/` 结构，当前完整包放在 `gold-miner/src/dist/`，设备 app ID 为 `gold_miner`；不要迁移或更改这些上架路径。
 
 ## 目录
 
