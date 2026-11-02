@@ -2,7 +2,9 @@
 
 HoloCubic 桌宠诺诺的独立维护仓库，原作者为 **游侠173（youxia173）**。
 
-来源：[youxia173/youxia173-holocubic-apps](https://github.com/youxia173/youxia173-holocubic-apps/tree/main/nono)，基线提交 `9b87cac7cededa6e5d881f8ae897e57dae102633`。保留上游 Git 历史，当前目录仅维护 `nono`，不包含其他应用。由于本账号已有上游 fork，本仓库为独立派生仓库，不是 GitHub fork 网络中的第二个 fork。已有 fork 保持不变。
+本仓库是 [youxia173/youxia173-holocubic-apps](https://github.com/youxia173/youxia173-holocubic-apps) 的公开 GitHub fork，由 `clocteck/youxia173-holocubic-apps` 改名为 `clocteck/pet-nuonuo`，保留 GitHub 的 fork 来源关系。
+
+诺诺来源：[上游 nono 目录](https://github.com/youxia173/youxia173-holocubic-apps/tree/main/nono)，基线提交 `9b87cac7cededa6e5d881f8ae897e57dae102633`。保留上游及原 fork 的提交历史；当前版本只维护 `nono`，其他应用仅可在历史提交中查阅。
 
 ## 桌宠诺诺
 
