@@ -6,6 +6,8 @@ HoloCubic 桌宠诺诺与黄金矿工的维护仓库，原作者为 **游侠173�
 
 诺诺来源：[上游 nono 目录](https://github.com/youxia173/youxia173-holocubic-apps/tree/main/nono)，基线提交 `9b87cac7cededa6e5d881f8ae897e57dae102633`。黄金矿工恢复自原 fork 提交 `a8bbfd1efcd66ac2ba0c9808c58212aac205e67e`，保留上游及原 fork 的提交历史。本仓库包含 `nono` 和 `gold-miner`，不包含 HID Pad 服务。
 
+设备资料：[HoloCubic 平台介绍](https://clocteck.com/pages/holocubic) · [ClocTeck 官网](https://clocteck.com/)
+
 ## 黄金矿工与服务器导入
 
 当前版本 **1.2.12**，保留原 fork 的运行逻辑、简繁中文/英文/日文语言系统、目录结构和完整安装包。`info.html` 的图标已内嵌为 PNG Base64，并保留原作者 GitHub 链接。

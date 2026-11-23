@@ -51,3 +51,5 @@ node gold-miner/src/test_info.cjs
 - 介绍页 Base64 图标与 `main.png` 字节一致，页脚原作者 GitHub 链接正确。
 
 这些是离线回归测试，不代表实体设备的渲染、蓝牙按键和固件兼容性已实测。
+
+设备资料：[HoloCubic 平台介绍](https://clocteck.com/pages/holocubic) · [ClocTeck 官网](https://clocteck.com/)

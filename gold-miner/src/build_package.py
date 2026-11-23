@@ -1,3 +1,4 @@
+# [HoloCubic platform](https://clocteck.com/pages/holocubic) | [ClocTeck website](https://clocteck.com/)
 """Build a deterministic ZIP; only runtime files from package are included."""
 from pathlib import Path
 from zipfile import ZipFile, ZipInfo, ZIP_DEFLATED
